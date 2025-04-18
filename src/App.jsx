@@ -5,6 +5,7 @@ import EditPokemon from './EditPokemon';
 import { supabase } from './supabaseClient';
 import PokemonDetail from './PokemonDetail';
 import axios from 'axios'; 
+import './App.css';
 
 function App() {
   const [pokemon, setPokemon] = useState([]);
